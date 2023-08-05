@@ -4,7 +4,7 @@
   "description": "this is a chat app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon backend/index.js"
+    "start": "node backend/index.js"
   },
   "author": "soumyadeep naskar",
   "license": "ISC",
