@@ -31,7 +31,7 @@ const server = app.listen(process.env.PORT,console.log(`server runnning on port 
 const io = require("socket.io")(server,{
     pingTimeout : 60000,
     cors: {
-        origin: ["http://localhost:3000","https://chitchat.onrender.com"]
+        origin: ["http://localhost:3000","https://chitchat-wp0q.onrender.com/"]
     }
 });
 
